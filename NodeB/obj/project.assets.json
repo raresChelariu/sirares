@@ -1,0 +1,132 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Client/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "CryptoUtility": "1.0.0",
+          "KMLogic": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Client.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Client.dll": {}
+        }
+      },
+      "CryptoUtility/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/CryptoUtility.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CryptoUtility.dll": {}
+        }
+      },
+      "KMLogic/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "CryptoUtility": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/KMLogic.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/KMLogic.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Client/1.0.0": {
+      "type": "project",
+      "path": "../Client/Client.csproj",
+      "msbuildProject": "../Client/Client.csproj"
+    },
+    "CryptoUtility/1.0.0": {
+      "type": "project",
+      "path": "../CryptoUtility/CryptoUtility.csproj",
+      "msbuildProject": "../CryptoUtility/CryptoUtility.csproj"
+    },
+    "KMLogic/1.0.0": {
+      "type": "project",
+      "path": "../KMLogic/KMLogic.csproj",
+      "msbuildProject": "../KMLogic/KMLogic.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "Client >= 1.0.0",
+      "CryptoUtility >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Rares\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Rares\\Desktop\\raresi\\NodeB\\NodeB.csproj",
+      "projectName": "NodeB",
+      "projectPath": "C:\\Users\\Rares\\Desktop\\raresi\\NodeB\\NodeB.csproj",
+      "packagesPath": "C:\\Users\\Rares\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Rares\\Desktop\\raresi\\NodeB\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Rares\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "projectReferences": {
+            "C:\\Users\\Rares\\Desktop\\raresi\\Client\\Client.csproj": {
+              "projectPath": "C:\\Users\\Rares\\Desktop\\raresi\\Client\\Client.csproj"
+            },
+            "C:\\Users\\Rares\\Desktop\\raresi\\CryptoUtility\\CryptoUtility.csproj": {
+              "projectPath": "C:\\Users\\Rares\\Desktop\\raresi\\CryptoUtility\\CryptoUtility.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WindowsForms": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

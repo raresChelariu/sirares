@@ -1,0 +1,64 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "NodeB/1.0.0": {
+        "dependencies": {
+          "Client": "1.0.0",
+          "CryptoUtility": "1.0.0"
+        },
+        "runtime": {
+          "NodeB.dll": {}
+        }
+      },
+      "Client/1.0.0": {
+        "dependencies": {
+          "CryptoUtility": "1.0.0",
+          "KMLogic": "1.0.0"
+        },
+        "runtime": {
+          "Client.dll": {}
+        }
+      },
+      "CryptoUtility/1.0.0": {
+        "runtime": {
+          "CryptoUtility.dll": {}
+        }
+      },
+      "KMLogic/1.0.0": {
+        "dependencies": {
+          "CryptoUtility": "1.0.0"
+        },
+        "runtime": {
+          "KMLogic.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "NodeB/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Client/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CryptoUtility/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "KMLogic/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
